@@ -1,0 +1,14 @@
+{
+  "name": "gladys-colissimo",
+  "version": "0.1.0",
+  "description": "Gladys hooks to track colissimo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fl0r!an",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "jsdom": "^11.1.0"
+  }
+}
