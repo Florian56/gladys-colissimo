@@ -1,8 +1,6 @@
 module.exports = function(sails) {
-    
-    var setup = require('./lib/setup.js');
-    
     return {
-		setup : setup
+		uninstall : require('./lib/uninstall.js'),
+		exec : require('./lib/exec.js')
     };
 };
